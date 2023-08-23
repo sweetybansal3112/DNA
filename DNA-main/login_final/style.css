@@ -1,0 +1,12 @@
+.container{
+    margin-top: 50px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 500px;
+    padding: 100px;
+    padding-left: 250px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.button{
+    margin:5px;
+}

@@ -1,0 +1,92 @@
+*{
+    margin : 0;
+    padding : 0;
+    background-color:#ffc107 ;
+}
+
+#content-container
+{
+    margin : 134px;
+    border: 2px solid black;
+    padding: 30px 30px;
+    text-align: center ;
+    background-color: rgb(251, 252, 250);
+    width: 80%;
+    height:100%;
+}
+
+#content-container .initial-text p
+{
+    font-size: 1.25em;
+    padding: 10px;
+    background-color: rgb(251, 252, 250);
+    
+}
+#content-container .box p
+{
+    font-size: 1.25em;
+    padding: 10px;
+    background-color:white;
+    
+}
+
+#content-container .box h2
+{
+    font-size: 1.5em;
+    padding: 10px;
+    color: red;
+}
+#content-container .box a
+{
+    font-size: 1.25em;
+   
+}
+#content-container .box
+{
+    display: inline-block;
+    margin: 50px 50px;
+    border : 2px solid black; 
+    /* border-radius: 10%; */
+    padding: 20px 20px;
+}
+#home
+{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before
+{
+    content : "";
+    position:absolute;
+    background: url(imgsup2.jpg) no-repeat center center/cover;
+    height: 90%;
+    width: 100%;
+    z-index: 0;
+    opacity: 0.89;
+}
+#home h1
+{
+    background-color:yellow;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(247, 4, 4);
+    /* margin-top: 300px; */
+    text-align: center;
+    z-index: 0;
+}
+
+.h-primary
+{
+    font-size: 4.8rem;
+    padding : 12px;
+}
+.h-secondary
+{
+    font-size: 3.8rem;
+    padding : 12px;
+}
+

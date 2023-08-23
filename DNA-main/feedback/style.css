@@ -1,0 +1,9 @@
+.feedbackform{
+    margin-left: 23%;
+    margin-right: 23%;
+    margin-top: 5%;
+    padding: 30px;
+    border: 5px;
+    border-radius: 10px;
+    background-color: yellow;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FeedbackForm</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header>
+    <nav class="navbar bg-warning navbar-expand-lg ">
+    <a class="navbar-brand" href="">DNA</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="" id="navbarSupportedContent">
+
+      <div class="">
+        <ul class="navbar-nav navbar-right" style="float:right">
+            <li class="nav-item">
+                <a class="nav-link" href="/index.html" style="float:right;">home</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="/ind/india.html">india</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="/Gallery/gallery.html">gallery</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="/ind/support.html">support</a>
+            </li>
+         </ul>
+      </header>
+  <div class="feedbackform">
+    <h2>Feedback form</h2>
+  <p><span class="error">* required field</span></p>
+  <form>
+  <div class="formgroup">
+    <label for="name">Name</label>
+    <span class="error">*</span>
+    <input type="text" class="form-control" name="fname">
+  </div>
+  <br>
+  <div class="formgroup">
+    <label for="email">Email</label>
+    <span class="error">*</span>
+    <input type="email" class="form-control" name="fmail">
+  </div>
+  <br>
+  <div class="formgroup">
+    <label for="message">Message</label><br>
+    <textarea name="fmsg" rows="5" cols="40"></textarea>
+  </div>
+  <a href="/index.html"><button type="submit" class="btn btn-primary" style="margin-top: 5px;color: white;">Submit</button></a>
+</form>
+  </div>
+</body>
+
+</html>
